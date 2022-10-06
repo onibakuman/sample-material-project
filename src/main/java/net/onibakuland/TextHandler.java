@@ -17,10 +17,10 @@ public class TextHandler {
         System.out.println("Please enter your distance:\n");
     }
 
-    public Stirng printSpeedMessage(Integer speedType, Double calculatedSpeed) {
+    public void printSpeedMessage(Integer speedType, Double calculatedSpeed) {
 
         if (calculatedSpeed == -1.0) {
-            return "\nINVALID DATA\n");h
+            System.out.println("\nINVALID DATA\n");
             return;
         }
 
